@@ -82,7 +82,7 @@ Stops and removes the service and drops it from Moonraker's service list.
 
 These bootloaders are entered and flashed unattended, directly from the running Klipper application:
 
-- **Katapult**, over USB serial or CAN
+- **Katapult**, over USB serial, UART serial, or CAN (over UART, Katapult must be built with the same baud rate as Klipper)
 - **STM32 ROM DFU** (`0483:df11`)
 - **PicoBoot** (RP2040/RP2350, `2e8a:0003`/`2e8a:000f`)
 
